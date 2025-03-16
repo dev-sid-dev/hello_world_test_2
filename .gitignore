@@ -1,24 +1,38 @@
-# Compiled class file
-*.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+.idea/
+**/tmp
+terraform/.terraform
+terraform/.terraform.lock.hcl
+.DS_Store
+**/.gradle
+_cacache
+_logs
+_update-notifier-last-checked
+_npx
+**/build
+**/build/tmp
+.env
+.env.backend.local
+.env.frontend.local
+*.md5
+## AIRFLOW
+workflows/logs
+workflows/config
+workflows/plugins
+workflows/dags/__pycache__/
+.localstack
+__pycache__
+dbt/*/venv/
+dbt/ga4_biquery_prestage/.venv/
+dbt/ga4_biquery_prestage/dbt_packages/
+dbt/ga4_biquery_prestage/logs/
+dbt/ga4_biquery_prestage/package-lock.yml
+dbt/ga4_biquery_prestage/target/
+dbt/logs/
+dbt/materialbank/.tmp
+frontend/newrelic_agent.log
+playwright-report
+test-results
+/services/eratosthenes/deployments/clickhouse-data/
+/logs/*
+.idea
+*.iml
