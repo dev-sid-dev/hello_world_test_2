@@ -7,5 +7,7 @@ public class Main {
 
         System.out.println("Cherry pick");
 
+        System.out.println("Cherry pick 2");
+
     }
 }
